@@ -13,10 +13,10 @@ function countLetters(string) {
   return result;
 }
 
-console.log(countLetters('string string'));
-console.log(countLetters('x'));   // ->   {'x': [0]}
-console.log(countLetters('xyz'));   // ->   {'x': [0], 'y': [1], 'z': [2]}
-console.log(countLetters('xxx'));   // ->   {'x': [0, 1, 2]}
+console.log(countLetters('lighthouse in the houose'));
+// console.log(countLetters('x'));   // ->   {'x': [0]}
+// console.log(countLetters('xyz'));   // ->   {'x': [0], 'y': [1], 'z': [2]}
+// console.log(countLetters('xxx'));   // ->   {'x': [0, 1, 2]}
 
 
 
